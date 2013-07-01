@@ -1,0 +1,28 @@
+.zoomSpeedSlider {
+    margin-top: 43px;
+    width: 50px;
+    height: 150px;
+    z-index: 10;
+    background: transparent;
+    border: 0px;
+}
+
+.zoomSpeedSliderContainer {
+    width: 50px;
+    height: 200px;
+    position: absolute;
+    right: 50px;
+    top: 290px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.7);
+}
+
+.zoomSpeedSlider .ui-slider-handle {
+    width: 50px;
+    height: 50px;
+    margin-top: -19px;
+    left: -1px;
+    z-index: 10;
+    background: rgba(255,255,255,0.5);
+    border: 1px solid rgba(255,255,255,0.7);
+}

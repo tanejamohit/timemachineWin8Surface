@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>65bdc17e-16d0-4e90-9a3f-e1ccc5052df4</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateKeyFile>timeMachine_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="browser_not_supported_template.html" />
+    <Content Include="css\cursors\closedhand.png" />
+    <Content Include="css\cursors\openhand.png" />
+    <Content Include="css\jquery-ui\smoothness\images\animated-overlay.gif" />
+    <Content Include="css\jquery-ui\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="css\jquery-ui\smoothness\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="css\jquery-ui\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="css\jquery-ui\smoothness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="css\jquery-ui\smoothness\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="css\jquery-ui\smoothness\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="css\jquery-ui\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="css\jquery-ui\smoothness\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="css\jquery-ui\smoothness\images\ui-icons_222222_256x240.png" />
+    <Content Include="css\jquery-ui\smoothness\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="css\jquery-ui\smoothness\images\ui-icons_454545_256x240.png" />
+    <Content Include="css\jquery-ui\smoothness\images\ui-icons_888888_256x240.png" />
+    <Content Include="css\jquery-ui\smoothness\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="css\jquery-ui\smoothness\jquery-ui.custom.css" />
+    <Content Include="css\mobileDeviceInteraction_Win8.css" />
+    <Content Include="css\player.css" />
+    <Content Include="css\snaplapse.css" />
+    <Content Include="css\timelapse.css" />
+    <Content Include="css\tours.css" />
+    <Content Include="css\ui.slider.extras.css" />
+    <Content Include="css\videoset_stats.css" />
+    <Content Include="default.html" />
+    <Content Include="images\0094.png" />
+    <Content Include="images\0131.png" />
+    <Content Include="images\0171.png" />
+    <Content Include="images\0193.png" />
+    <Content Include="images\0211.png" />
+    <Content Include="images\0304.png" />
+    <Content Include="images\0335.png" />
+    <Content Include="images\1600.png" />
+    <Content Include="images\1700.png" />
+    <Content Include="images\alert.png" />
+    <Content Include="images\bar_background_stretch_noborder.png" />
+    <Content Include="images\bubble_edge_horizontal.png" />
+    <Content Include="images\bubble_edge_vertical.png" />
+    <Content Include="images\buttons\comment_edge.png" />
+    <Content Include="images\buttons\help.png" />
+    <Content Include="images\buttons\help2.png" />
+    <Content Include="images\buttons\help_afterclick.png" />
+    <Content Include="images\buttons\help_down.png" />
+    <Content Include="images\buttons\help_down2.png" />
+    <Content Include="images\buttons\help_hover.png" />
+    <Content Include="images\buttons\help_hover2.png" />
+    <Content Include="images\buttons\pause.png" />
+    <Content Include="images\buttons\pause_down.png" />
+    <Content Include="images\buttons\pause_hover.png" />
+    <Content Include="images\buttons\pause_snaplapse.png" />
+    <Content Include="images\buttons\pause_snaplapse_down.png" />
+    <Content Include="images\buttons\pause_snaplapse_hover.png" />
+    <Content Include="images\buttons\play.png" />
+    <Content Include="images\buttons\playbackspeed.png" />
+    <Content Include="images\buttons\playbackspeed2.png" />
+    <Content Include="images\buttons\playbackspeed3.png" />
+    <Content Include="images\buttons\playbackspeed_down.png" />
+    <Content Include="images\buttons\playbackspeed_down2.png" />
+    <Content Include="images\buttons\playbackspeed_down3.png" />
+    <Content Include="images\buttons\playbackspeed_hover.png" />
+    <Content Include="images\buttons\playbackspeed_hover2.png" />
+    <Content Include="images\buttons\playbackspeed_hover3.png" />
+    <Content Include="images\buttons\play_down.png" />
+    <Content Include="images\buttons\play_hover.png" />
+    <Content Include="images\buttons\share.png" />
+    <Content Include="images\buttons\share_down.png" />
+    <Content Include="images\buttons\share_hover.png" />
+    <Content Include="images\buttons\size.png" />
+    <Content Include="images\buttons\size2.png" />
+    <Content Include="images\buttons\size_down.png" />
+    <Content Include="images\buttons\size_down2.png" />
+    <Content Include="images\buttons\size_hover.png" />
+    <Content Include="images\buttons\size_hover2.png" />
+    <Content Include="images\buttons\stop_snaplapse.png" />
+    <Content Include="images\buttons\stop_snaplapse_down.png" />
+    <Content Include="images\buttons\stop_snaplapse_hover.png" />
+    <Content Include="images\buttons\toggletour.png" />
+    <Content Include="images\buttons\toggletour_down.png" />
+    <Content Include="images\buttons\toggletour_hover.png" />
+    <Content Include="images\check.gif" />
+    <Content Include="images\drag_mouse.png" />
+    <Content Include="images\error.png" />
+    <Content Include="images\fullscreen.svg" />
+    <Content Include="images\fullscreen_exit.svg" />
+    <Content Include="images\handle.png" />
+    <Content Include="images\handle_down.png" />
+    <Content Include="images\handle_hover.png" />
+    <Content Include="images\help\bubble_speed.png" />
+    <Content Include="images\help\bubble_zoom.png" />
+    <Content Include="images\help\help.png" />
+    <Content Include="images\help\help_afterclick.png" />
+    <Content Include="images\help\help_down.png" />
+    <Content Include="images\help\help_hover.png" />
+    <Content Include="images\joystick.png" />
+    <Content Include="images\joystick_down.png" />
+    <Content Include="images\joystick_left.png" />
+    <Content Include="images\joystick_right.png" />
+    <Content Include="images\joystick_up.png" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\minus.png" />
+    <Content Include="images\next.jpg" />
+    <Content Include="images\pause_warp.png" />
+    <Content Include="images\pause_mouseout.png" />
+    <Content Include="images\pause_mouseover.png" />
+    <Content Include="images\play_mouseout.png" />
+    <Content Include="images\play_mouseover.png" />
+    <Content Include="images\play_warp.png" />
+    <Content Include="images\plus.png" />
+    <Content Include="images\prev.jpg" />
+    <Content Include="images\record.png" />
+    <Content Include="images\repeat_active.png" />
+    <Content Include="images\repeat_active2.png" />
+    <Content Include="images\repeat_hover.png" />
+    <Content Include="images\repeat_hover2.png" />
+    <Content Include="images\repeat_inactive.png" />
+    <Content Include="images\repeat_inactive2.png" />
+    <Content Include="images\save_warp.png" />
+    <Content Include="images\scrollbar\scroll.png" />
+    <Content Include="images\scrollbar\scroll_down.png" />
+    <Content Include="images\scrollbar\scroll_hover.png" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\snaplink.png" />
+    <Content Include="images\speed_backward.png" />
+    <Content Include="images\speed_forward.png" />
+    <Content Include="images\speed_rollover_indicator.png" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\stopRecord.png" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="images\time machine.png" />
+    <Content Include="images\time_indicator.png" />
+    <Content Include="images\time_indicator_fluid\time_indicator_center.png" />
+    <Content Include="images\time_indicator_fluid\time_indicator_left.png" />
+    <Content Include="images\time_indicator_fluid\time_indicator_right.png" />
+    <Content Include="images\time_indicator_fluid\time_indicator_stretch1px.png" />
+    <Content Include="images\time_skip_indicator.png" />
+    <Content Include="images\time_skip_indicator\time_skip_indicator_center.png" />
+    <Content Include="images\time_skip_indicator\time_skip_indicator_left.png" />
+    <Content Include="images\time_skip_indicator\time_skip_indicator_right.png" />
+    <Content Include="images\time_skip_indicator\time_skip_indicator_stretch1px.png" />
+    <Content Include="images\viewall.png" />
+    <Content Include="images\zoom\zoom_handle.png" />
+    <Content Include="images\zoom\zoom_handle_down.png" />
+    <Content Include="images\zoom\zoom_handle_hover.png" />
+    <Content Include="images\zoom\zoom_in.png" />
+    <Content Include="images\zoom\zoom_in_down.png" />
+    <Content Include="images\zoom\zoom_in_hover.png" />
+    <Content Include="images\zoom\zoom_out.png" />
+    <Content Include="images\zoom\zoom_out_down.png" />
+    <Content Include="images\zoom\zoom_out_hover.png" />
+    <Content Include="images\zoom\zoom_viewall.png" />
+    <Content Include="images\zoom\zoom_viewall_down.png" />
+    <Content Include="images\zoom\zoom_viewall_hover.png" />
+    <Content Include="js\default.js" />
+    <Content Include="css\default.css" />
+    <Content Include="js\jquery\jquery-ui.custom.min.js" />
+    <Content Include="js\jquery\jquery.min.win8App.js" />
+    <Content Include="js\jquery\plugins\carousel\jcarousellite.min.js" />
+    <Content Include="js\jquery\plugins\mouse\jquery.mousecapture.js" />
+    <Content Include="js\jquery\plugins\mouse\jquery.mousewheel.min.js" />
+    <Content Include="js\jquery\plugins\query\jquery.query-2.1.7.js" />
+    <Content Include="js\jquery\plugins\slider\selectToUISlider.jQuery.js" />
+    <Content Include="js\jwplayer\jwplayer.js" />
+    <Content Include="js\jwplayer\swfobject.js" />
+    <Content Include="js\Math.uuid.js" />
+    <Content Include="js\org\gigapan\timelapse\captureTimewarp.js" />
+    <Content Include="js\org\gigapan\timelapse\flashViewer.js" />
+    <Content Include="js\org\gigapan\timelapse\mercator.js" />
+    <Content Include="js\org\gigapan\timelapse\mobileDeviceInteraction_Win8.js" />
+    <Content Include="js\org\gigapan\timelapse\snaplapse.js" />
+    <Content Include="js\org\gigapan\timelapse\snaplapseViewer.js" />
+    <Content Include="js\org\gigapan\timelapse\timelapse.js" />
+    <Content Include="js\org\gigapan\timelapse\timelapseViewer.js" />
+    <Content Include="js\org\gigapan\timelapse\tours.js" />
+    <Content Include="js\org\gigapan\timelapse\videoset.js" />
+    <Content Include="js\org\gigapan\timelapse\videoset_stats.js" />
+    <Content Include="js\org\gigapan\util.js" />
+    <Content Include="js\swfobject.js" />
+    <Content Include="load_snaplapse.html" />
+    <Content Include="player_template.html" />
+    <Content Include="save_snaplapse.html" />
+    <Content Include="time_warp_composer.html" />
+    <None Include="timeMachine_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>
